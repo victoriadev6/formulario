@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>titulo</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Usuário</legend>
+         <br>   <label for="inome">Nome</label>
+            <input type="text" id="inome" name="txtnome" 
+            placeholder="Digite seu nome" >
+            <br>
+            <br>
+            <label for="idatanas">Data de Nascimento</label>
+          <input type="date" id="idatanas" name="ddatanas">
+         <br> 
+         <br>
+         <label for="isexo">Sexo</label>
+         <select name="slsexo" id="isexo">
+            <option value="M">Masculino</option>
+            <option value="F">Feminino</option>
+            <option value="A">Agenero</option>
+         </select>
+         <br>
+         <br>
+        
+   <label for="iemail">E-mail</label>
+          <input type="email" id="emcmail" itemid="icmail">
+         <br>
+         <br>
+         <label for="icmail">Confirmar E-mail</label>
+          <input type="email" name="emcmail" id="icmail">
+          <br>
+          <br>
+          <label>Tipo</label>
+          <input type="radio" name="rtipo" id="isuario" value="U">
+          <label for="isuario">Usuario</label>
+          <input type="radio" name="rtipo" id="iadmin" value="A">
+          <label for="admin">Admin</label>
+          <br>
+          <label for="ifale">Fale sobre você</label>
+          <br>
+          <br>
+          <textarea name="txtfale" id="ifale" cols="50" rows="20"></textarea>
+          <input type="submit" value="ENVIAR">
+          <input type="reset" value="LIMPAR">
+        </fieldset>
+    </form>
+    
+</body>
+</html>
